@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010491891DC2DEBB009B00CA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010491881DC2DEBB009B00CA /* SwiftyJSON.swift */; };
 		0106A4F31DC2D3F40038AB55 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106A4F21DC2D3F40038AB55 /* main.swift */; };
+		0106A4FA1DC2D7630038AB55 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106A4F91DC2D7630038AB55 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		010491881DC2DEBB009B00CA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		0106A4EF1DC2D3F40038AB55 /* weather */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = weather; sourceTree = BUILT_PRODUCTS_DIR; };
 		0106A4F21DC2D3F40038AB55 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0106A4F91DC2D7630038AB55 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				0106A4F21DC2D3F40038AB55 /* main.swift */,
+				0106A4F91DC2D7630038AB55 /* Weather.swift */,
+				010491881DC2DEBB009B00CA /* SwiftyJSON.swift */,
 			);
 			path = weather;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010491891DC2DEBB009B00CA /* SwiftyJSON.swift in Sources */,
+				0106A4FA1DC2D7630038AB55 /* Weather.swift in Sources */,
 				0106A4F31DC2D3F40038AB55 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +261,7 @@
 				0106A4F81DC2D3F40038AB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
